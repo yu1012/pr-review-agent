@@ -1,0 +1,3 @@
+BASE_IMAGE_NAME=ghcr.io/vuno/pr-review-agent
+BASE_IMAGE_TAG=250618
+DOCKER_BUILDKIT=1 docker build -t ${BASE_IMAGE_NAME}:${BASE_IMAGE_TAG} .
